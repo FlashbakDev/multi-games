@@ -1,0 +1,25 @@
+name: mobile
+description: Multi-games mobile application (foundation bootstrap).
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_core:
+  design_system:
+  game_runtime:
+  go_router: ^17.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,12 @@
+name: multi_games
+description: Monorepo workspace for the multi-games mobile application.
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+workspace:
+  - apps/mobile
+  - packages/app_core
+  - packages/design_system
+  - packages/game_runtime
